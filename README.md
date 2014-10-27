@@ -12,7 +12,7 @@ matplotlib.pyplot<br>
 emcee<br>
 csv<br>
 <br>
-Includes:
+Includes:<br>
 mcmc_tc.py - routines for estimating Von Mises model parameters.<br>
 mcmc_plot.py - plotting the results of previous analysis<br>
 demo.py - demonstration of the functionality - fitting a Von Mises function to a single voxel using real fMRI data

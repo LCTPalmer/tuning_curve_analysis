@@ -6,7 +6,7 @@ Example fMRI data is given which includes the currently viewed orientation and a
 demo.py uses Bayesian MCMC estimation to find parameters of a Von Mises function that best account for the tuning 
 properties of a single voxel.
 
-Dependencies:
+Dependencies:<br>
 numpy
 matplotlib.pyplot
 emcee

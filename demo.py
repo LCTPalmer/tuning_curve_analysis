@@ -15,6 +15,8 @@ with open('example_data.csv', 'rb') as csvfile:
 #convert data to np arrays
 data = np.array(data)
 data = data.astype(np.float)
+
+#select a voxel and the stimulus conditions
 voxel_num = 497
 y = data[:,voxel_num+3]
 x = 2*(np.pi/180)*((data[:,3]-1)*20)#multiply condition number by 20 degrees (and scale to 360 for the vm)

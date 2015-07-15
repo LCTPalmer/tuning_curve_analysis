@@ -10,7 +10,6 @@ Dependencies:<br>
 numpy<br>
 matplotlib.pyplot<br>
 emcee<br>
-csv<br>
 <br>
 Includes:<br>
 mcmc_tc.py - routines for estimating Von Mises model parameters<br>
